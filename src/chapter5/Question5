@@ -1,0 +1,11 @@
+Question 5: Explain what the following code does ((n & (n-1)) == 0);
+
+
+This code checks if n is a power of 2. A & B == 0 means that both A and B never have a 1 bit in the same place. 
+n-1 looks like n but the difference is that n's initial 0s will be 1s in n-1 and n's least significant 1 will be a 0 in n-1.
+
+n   = xxxxx1000
+n-1 = xxxxx0111
+
+
+n & (n-1) == 0 means that both n and (n-1) have no ones in common which means that n is a power of 2.

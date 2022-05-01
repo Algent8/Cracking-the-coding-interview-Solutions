@@ -1,0 +1,6 @@
+Question 1: You have bottles of pills, 19 have 1.0 gram pills but one has pills that weight 1.1 grams. Given a scale that 
+provides an exact measurement, how would you find the heavy bottle? You can only use the scale once.
+
+Answer: Put 1 pill from the first bottle on the scale and then increment the number of pills that you put on the scale from each
+bottle by 1. So 1 pill from the 1st, 2 from the second, 3 from the third and so on. Then by weighing all the pills you can figure
+out which bottle has the heavier pills because depending on the measurement you can tell which bottle is heavier.
